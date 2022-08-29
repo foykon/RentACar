@@ -11,6 +11,9 @@
     <Folder Include="Features\Brands\Models\" />
     <Folder Include="Features\Brands\Rules\" />
     <Folder Include="Features\Brands\Queries\" />
+    <Folder Include="Features\Colors\Constants\" />
+    <Folder Include="Features\Colors\Queries\" />
+    <Folder Include="Features\Colors\Rules\" />
   </ItemGroup>
 
 	<ItemGroup>
