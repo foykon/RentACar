@@ -1,4 +1,5 @@
 ﻿using Application.Features.Brands.Models;
+using Application.Features.Brands.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
 using Core.Application.Requests;
@@ -27,6 +28,7 @@ namespace Application.Features.Brands.Queries.GetListBrand
             {
                 _brandRepository=brandRepository;
                 _mapper=mapper;
+
             }
 
             public async Task<BrandListModel> Handle(GetListBrandQuery request, CancellationToken cancellationToken)
